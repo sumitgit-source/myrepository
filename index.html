@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<h1>gggg</h1>
+
+<h1>this is new change</h1>
+
+<!--     
+    <button style="height: 100px; width: 100px; background-color: blue; color: black;" onclick="ShowBox()">Show</button>
+    <button style="height: 100px; width: 100px; color: black; background-color: aquamarine;" onclick="HideBox()">Hide</button>
+    
+<div style="height: 200px; width: 200px; background-color: yellow;" id="box">
+
+</div> -->
+
+<button style="height: 100px; width: 100px; color: black; background-color: aquamarine;" onclick="ShowHide()">Show Hide</button>
+
+<div style="height: 200px; width: 200px; background-color: yellow; display: none;" id="box">
+
+</div>
+
+</body>
+
+
+<script>
+
+//     let box1 =document.getElementById("box");
+//   function ShowBox(){
+//     box1.style.display="block"
+//   }
+
+//   function HideBox(){
+//     box1.style.display="none"
+//   }
+
+let box1=document.getElementById("box");
+
+  function ShowHide(){
+     if(box1.style.display=="block"){
+        box1.style.display="none"
+     }
+     else{
+        box1.style.display="block"
+     }
+  }
+
+
+
+</script>
+
+</html>
